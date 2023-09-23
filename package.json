@@ -9,6 +9,7 @@
     "node": ">=v20.3.0"
   },
   "scripts": {
+    "start": "tsx index.ts",
     "format": "run-s format:prettier format:lint",
     "format:lint": "eslint --fix .",
     "format:prettier": "prettier --write ."
